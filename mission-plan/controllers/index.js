@@ -1,8 +1,7 @@
 var express = require('express')
   , router = express.Router()
 
-router.use('/comments', require('./comments'))
-router.use('/users', require('./users'))
+router.use('/missions', require('./missions'))
 
 router.get('/', function(req, res) {
   res.render('index')

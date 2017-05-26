@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title= "Mission"+ id
+    link(href='/css/form.css', rel='stylesheet')
+  body
+    h1="Mission"+ id
+    ul(class='form-style-1')
+      li
+        input(type='number' name='channel' placeholder='Channel' class='field-divided') 
+        | #{' '}
+        input(type='number' name='frequency' placeholder='Frequency' class='field-divided')
+      li
+        input(type='number' name='volume' placeholder='Volume' class='field-long')
+      li
+        input(type='text' name='name' placeholder='Name' class='field-long')

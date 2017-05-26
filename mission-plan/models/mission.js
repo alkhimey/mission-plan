@@ -13,8 +13,3 @@ exports.get = function(id, cb) {
 exports.all = function(cb) {
   cb(null, [])
 }
-
-// Get all comments by a particular user
-exports.allByUser = function(user, cb) {
-  cb(null, [])
-}
