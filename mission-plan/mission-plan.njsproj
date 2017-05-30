@@ -29,9 +29,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="package.json" />
+    <Content Include="public\css\app.css" />
     <Content Include="public\css\form.css">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="public\css\foundation.css" />
+    <Content Include="public\css\foundation.min.css" />
     <Content Include="public\css\style.css" />
     <Content Include="public\img\logo.png" />
     <Content Include="views\missions\mission.jade" />
@@ -47,7 +50,12 @@
     <Compile Include="middlewares\auth.js" />
     <Compile Include="middlewares\users.js" />
     <Compile Include="models\mission.js" />
-    <Compile Include="public\libs\empty.js" />
+    <Compile Include="public\js\app.js" />
+    <Compile Include="public\js\empty.js" />
+    <Compile Include="public\js\vendor\foundation.js" />
+    <Compile Include="public\js\vendor\foundation.min.js" />
+    <Compile Include="public\js\vendor\jquery.js" />
+    <Compile Include="public\js\vendor\what-input.js" />
     <Compile Include="tests\controllers\comments.js" />
     <Compile Include="tests\helpers\date.js" />
     <Compile Include="tests\integration\loading.js" />
@@ -64,7 +72,8 @@
     <Folder Include="public\" />
     <Folder Include="public\css\" />
     <Folder Include="public\img\" />
-    <Folder Include="public\libs\" />
+    <Folder Include="public\js\" />
+    <Folder Include="public\js\vendor\" />
     <Folder Include="tests\" />
     <Folder Include="tests\controllers\" />
     <Folder Include="tests\helpers\" />
